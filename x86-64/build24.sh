@@ -66,14 +66,9 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # Hunter自用
 # 功能包 (Apps)
 PACKAGES="$PACKAGES luci-app-autoreboot"
-PACKAGES="$PACKAGES luci-app-ddnsto"
-PACKAGES="$PACKAGES luci-app-unblockmusic"
-PACKAGES="$PACKAGES luci-app-uugamebooster"
-PACKAGES="$PACKAGES luci-app-leigod-acc"
-PACKAGES="$PACKAGES luci-app-wireguard"
-PACKAGES="$PACKAGES luci-app-mwan3helper"
+PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES luci-app-mwan3"
-PACKAGES="$PACKAGES luci-app-easytier"
+PACKAGES="$PACKAGES luci-app-zerotier"
 # 中文语言包 (i18n - 简体中文)
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
