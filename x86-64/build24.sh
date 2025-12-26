@@ -65,12 +65,16 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # Hunter自用
 # 功能包 (Apps)
+PACKAGES="$PACKAGES luci-app-netdata"
+PACKAGES="$PACKAGES luci-app-statistics"
 PACKAGES="$PACKAGES luci-app-autoreboot"
 PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES luci-app-mwan3"
 PACKAGES="$PACKAGES luci-app-zerotier"
 PACKAGES="$PACKAGES luci-app-upnp"
 # 中文语言包 (i18n - 简体中文)
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-autoreboot-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
